@@ -14,7 +14,7 @@ The well name, well index, maximum first derivative cycle and maximum
 second derivative cycles should be output in a flat csv format, with one line
 corresponding to every well/channel pair, and a header identifying the columns. 
 
-It is expected that this tool use Python3 with a virtual environment. No dependencies
-are required. 
+It is expected that this tool use Python3 with a virtual environment. Any unit 
+tests should be written with pytest. No dependencies beyond pytest are required. 
 
 The input json file is provided as plate.json in the repo. 
